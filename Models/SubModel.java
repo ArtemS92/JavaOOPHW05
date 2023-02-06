@@ -1,13 +1,13 @@
 package Models;
 
-public class SubModel extends CalcModel{
+public class SubModel extends CalcModel {
     public SubModel() {
 
     }
-    // do_it
+
     @Override
     public int result() {
-        System.out.printf("%d - %d ",x,y);
+        System.out.printf("%d - %d ", x, y);
         return x - y;
     }
 

@@ -5,7 +5,6 @@ public class DivModel extends CalcModel {
 
     }
 
-    // do_it
     @Override
     public int result() {
         System.out.printf("%d / %d ", x, y);

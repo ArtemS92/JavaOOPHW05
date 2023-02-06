@@ -7,7 +7,7 @@ public class MultModel extends CalcModel {
 
     @Override
     public int result() {
-        System.out.printf("%d * %d ",x,y);
+        System.out.printf("%d * %d ", x, y);
         return x * y;
     }
 
