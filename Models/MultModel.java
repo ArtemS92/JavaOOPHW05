@@ -6,18 +6,18 @@ public class MultModel extends CalcModel {
     }
 
     @Override
-    public int result() {
-        System.out.printf("%d * %d ", x, y);
+    public double result() {
+        System.out.printf("%f * %f ", x, y);
         return x * y;
     }
 
     @Override
-    public void setX(int value) {
+    public void setX(double value) {
         super.x = value;
     }
 
     @Override
-    public void setY(int value) {
+    public void setY(double value) {
         super.y = value;
     }
 }

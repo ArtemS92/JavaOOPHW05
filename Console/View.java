@@ -10,8 +10,8 @@ public class View {
         return in.nextInt();
     }
 
-    public void print(int data, String title) { // Метод вывода
-        System.out.printf("%s %d\n", title, data);
+    public void print(double data, String title) { // Метод вывода
+        System.out.printf("%s %f\n", title, data);
     }
 
     public int getChoice() { // Метод выбора операции

@@ -1,10 +1,10 @@
 package Models;
 
 public interface Model {
-    int result();
+    double result();
 
-    void setX(int value);
+    void setX(double value);
 
-    void setY(int value);
+    void setY(double value);
 
 }
