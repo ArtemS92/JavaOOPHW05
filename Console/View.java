@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class View {
     Scanner in = new Scanner(System.in);
 
-    public int getValue(String title) {
+    public double getValue(String title) {
         System.out.printf("%s", title);
-        return in.nextInt();
+        return in.nextDouble();
     }
 
     public void print(double data, String title) { // Метод вывода

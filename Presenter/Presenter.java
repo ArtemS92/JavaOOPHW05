@@ -1,15 +1,21 @@
 package Presenter;
 
 import Console.View;
-import Models.*;
+import Models.Model;
+
+
+
+
 
 public class Presenter {
     View view;
     Model model;
 
+
     public Presenter(Model m, View v) {
         model = m;
         view = v;
+
     }
 
     public void buttonClick() { // метод для ввода данных с консоли и вывода результата
@@ -20,4 +26,5 @@ public class Presenter {
         double result = model.result();
         view.print(result, "=");
     }
+
 }

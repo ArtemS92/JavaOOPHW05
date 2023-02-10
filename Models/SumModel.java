@@ -1,11 +1,12 @@
 package Models;
 
-public class SumModel extends CalcModel {
+public class SumModel  implements Model {// Наследование от интерфейса, а не от абстрактного класса
 
     public SumModel() {
 
     }
-    // do_it
+    double x,y; // добавление переменных после удаления абстрактного класса CalcModel
+
     @Override
     public double result() {
         System.out.printf("%f + %f ",x,y);
@@ -14,12 +15,12 @@ public class SumModel extends CalcModel {
 
     @Override
     public void setX(double value) {
-        super.x = value;
+        this.x = value;
     }
 
     @Override
     public void setY(double value) {
-        super.y = value;
+        this.y = value;
     }
 
 }
